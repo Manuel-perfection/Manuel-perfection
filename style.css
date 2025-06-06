@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #1c1c1c;
+  border-bottom: 3px solid #e91e63;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #e91e63;
+}
+
+header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #e91e63;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.track {
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #bbb;
+  padding: 20px 0;
+  border-top: 1px solid #333;
+  background-color: #1c1c1c;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
